@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore sheer, blackout and custom-made curtains at Elegant Drapes. Find a style for your home or office.">
+    <title>Our Services | Elegant Drapes</title>
+    <link rel="stylesheet" href="css_assets/myfirststyle.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    
+
+<header class="site-header">
+    <a class="brand" href="index.html">
+        <span class="brand-mark">ED</span>
+        <span>
+            <strong>Elegant Drapes</strong>
+            <small>Luxury curtains for beautiful spaces</small>
+        </span>
+    </a>
+
+    <button class="menu-toggle" type="button"
+            aria-expanded="false" aria-controls="site-nav">
+        Menu ☰
+    </button>
+
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a class="active" href="services.html">Services</a>
+        <a href="enquiries.html">Enquiries</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<main id="main">
+
+    <section class="page-banner">
+        <p class="eyebrow">Discover your style</p>
+        <h1>Our Curtain Collection</h1>
+        <p>Explore different styles for your space.</p>
+    </section>
+
+    <section class="section">
+
+        <div class="section-heading">
+            <h2>Find Your Curtains</h2>
+            <p>Search by name or filter by curtain type.</p>
+        </div>
+
+        <div class="filter-controls">
+            <label for="product-search">Search curtains</label>
+            <input type="search" id="product-search"
+                   placeholder="Example: blackout">
+
+            <label for="category-filter">Choose a category</label>
+            <select id="category-filter">
+                <option value="all">All curtains</option>
+                <option value="sheer">Sheer curtains</option>
+                <option value="blackout">Blackout curtains</option>
+                <option value="custom">Custom curtains</option>
+            </select>
+        </div>
+
+        <p id="search-status" role="status" aria-live="polite"></p>
+
+        <div class="product-grid" id="product-list">
+
+            <article class="product-card searchable-product"
+                     id="sheer" data-category="sheer"
+                     data-name="sheer light curtains">
+
+                <div class="product-image image-sheer">
+
+                    <img src="_images/sheer-curtains.jpg" alt="Floor-to-ceiling sheer white curtains filter sunlight beside dark teal drapes, casting striped shadows across the tiled floor of a bright, modern room. The scene feels calm; no text is visible." width="600" height="400">
+                </div>
+
+                <div class="product-content">
+                    <h2>Sheer Curtains</h2>
+                    <p>
+                     Soft, lightweight curtains that allow natural
+                        light to enter your room.
+                    </p>
+                    <p class="price">Example price: From R450</p>
+                    <a class="button" href="enquiries.html?product=sheer">
+                        Enquire Now
+                    </a>
+                </div>
+            </article>
+
+            <article class="product-card searchable-product"
+                     id="blackout" data-category="blackout"
+                     data-name="blackout privacy bedroom curtains">
+
+                <div class="product-image image-blackout">
+                     <img src="_images/blackout-curtains.jpg" alt="Dark grey blackout curtains cover a large bedroom window, blocking sunlight. A bed with white bedding, bedside table, and lamp complete the cozy room; no text is visible." width="600" height="400">
+                    </div>
+
+                <div class="product-content">
+                    <h2>Blackout Curtains</h2>
+                    <p>
+                        A practical option for bedrooms and spaces
+                        where reduced light and privacy are important.
+                    </p>
+                    <p class="price">Example price: From R650</p>
+                    <a class="button" href="enquiries.html?product=blackout">
+                        Enquire Now
+                    </a>
+                </div>
+            </article>
+
+            <article class="product-card searchable-product"
+                     id="custom" data-category="custom"
+                     data-name="custom made measured curtains">
+
+                <div class="product-image image-custom">
+                    <img src="_images/custom-made-curtains.jpg" alt="A pair of custom-made curtains in a living room setting. The curtains are a soft beige colour and have a simple, elegant design. There is no visible text in the image." width="600" height="400">
+                    </div>
+
+                <div class="product-content">
+                    <h2>Custom-Made Curtains</h2>
+                    <p>
+                        Request a design that suits your measurements,
+                        preferred colour and fabric.
+                    </p>
+                    <p class="price">Example price: From R800</p>
+                    <a class="button" href="enquiries.html?product=custom">
+                        Request a Quote
+                    </a>
+                </div>
+            </article>
+
+        </div>
+
+        <p class="notice">
+            Prices shown are examples for the website project.
+            Confirm actual prices, fabric costs and availability
+            before publishing them to customers.
+        </p>
+
+    </section>
+
+    <section class="section soft-section">
+        <div class="section-heading">
+            <h2>How to Order</h2>
+        </div>
+
+        <div class="product-grid">
+            <article class="value-card">
+                <h3>1. Choose a Style</h3>
+                <p>Explore the curtain types and decide what suits you.</p>
+            </article>
+
+            <article class="value-card">
+                <h3>2. Send an Enquiry</h3>
+                <p>Tell us about your preferred style and requirements.</p>
+            </article>
+
+            <article class="value-card">
+                <h3>3. Discuss Your Needs</h3>
+                <p>Confirm measurements, pricing and availability.</p>
+            </article>
+        </div>
+    </section>
+
+</main>
+
+<footer class="site-footer">
+    <div>
+        <a class="footer-brand" href="index.html">Elegant Drapes</a>
+        <p>Thoughtful curtains for beautiful spaces.</p>
+    </div>
+
+    <div>
+        <p>
+            <a href="about.html">About Us</a> ·
+            <a href="enquiries.html">Enquiries</a> ·
+            <a href="contact.html">Contact</a>
+        </p>
+        <p>&copy; <span class="year">2026</span> Elegant Drapes. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
